@@ -1,0 +1,81 @@
+/* Reset some default browser styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #f0f4f8;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header & nav */
+header {
+  background-color: #1e40af;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  padding: 5px 10px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: white;
+  color: #1e40af;
+}
+
+/* Main sections */
+section.intro {
+  background-color: #fef3c7;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 2px solid #fcd34d;
+}
+
+/* Cards layout */
+section.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background-color: #e0f2fe;
+  padding: 20px;
+  border: 2px solid #38bdf8;
+  flex: 1;
+}
+
+/* Card buttons */
+button {
+  background-color: #2563eb;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+  border-top: 2px solid #1e40af;
+}
